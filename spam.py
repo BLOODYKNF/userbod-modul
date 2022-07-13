@@ -52,7 +52,7 @@ class SpamMod(loader.Module):
             # Be kind to other people
             sleepy = 2
         else:
-            sleepy = 0.3
+            sleepy = 0
         i = 0
         size = 1 if sleepy else 100
         while i < count:
