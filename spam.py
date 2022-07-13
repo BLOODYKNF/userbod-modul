@@ -54,7 +54,7 @@ class SpamMod(loader.Module):
         else:
             sleepy = 0
         i = 0
-        size = 1 if sleepy else 100
+        size = 1 if sleepy else 10
         while i < count:
             await asyncio.gather(*[message.respond(spam) for x in range(min(count, size))])
             await asyncio.sleep(sleepy)
