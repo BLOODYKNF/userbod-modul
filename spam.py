@@ -48,11 +48,11 @@ class SpamMod(loader.Module):
             await utils.answer(message, self.strings["much_spam"])
             return
         await message.delete()
-        if count > 1000000000:
+        if count > 20:
             # Be kind to other people
-            sleepy = 2
-        else:
             sleepy = 0
+        else:
+            sleepy = 1
         i = 0
         size = 1 if sleepy else 10
         while i < count:
