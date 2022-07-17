@@ -209,6 +209,6 @@ class ILYMod(loader.Module):
         for i in range(8):
             await message.edit((arr[0] * (8 - i) + "\n") * (8 - i))
             await sleep(0.9)
-        for i in ["I", "I ❤️", "I ❤️ U", "I ❤️ U!", "I LOVE YOU ❤️", "Я ТЕБЯ ЛЮБЛЮ ❤️", "JE T'AIME ❤️", "ICH LIEBE DICH ❤️", "ANAHABAK ❤️", "TI AMO ❤️", "我爱你 ❤️", "მე ❤️", "შენ ❤️", "მიყვარხარ ❤️", "მე შენ მიყვარხარ ❤️❤️❤️"]:
+        for i in ["I", "I ❤️", "I ❤️ U", "I ❤️ U!", "I LOVE YOU ❤️", "Я ТЕБЯ ЛЮБЛЮ ❤️", "JE T'AIME ❤️", "ICH LIEBE DICH ❤️", "ANAHABAK ❤️", "TI AMO ❤️", "我爱你 ❤️", "SENI SEVIYORUM ❤️", "TE AMO ❤️", "მე ❤️", "შენ ❤️", "მიყვარხარ ❤️", "მე შენ მიყვარხარ ❤️❤️❤️"]:
             await message.edit(f"<b>{i}</b>")
             await sleep(0.9)
