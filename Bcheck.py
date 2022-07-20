@@ -16,7 +16,7 @@ class BCheckMod(loader.Module):
        'check_in_progress': 'შემოწმების პროცესი...',
        'search_header': "შედეგი: ",
        'not_found': "Result: <code>ვერ მოიძებნა</code>",
-       'check_started': 'დაიწყო ჩატის შემოწმება'
+       'check_started': 'დაიწყო ჩატის შემოწმება...'
     }
 
     async def bcheckcmd(self, message):
