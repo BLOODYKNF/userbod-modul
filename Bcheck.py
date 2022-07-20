@@ -13,7 +13,7 @@ class BCheckMod(loader.Module):
     strings = {
         "name": "BCheck",
        'checking': '<b>მოწმდება ჩატი...</b>',
-       'check_in_progress': 'შემოწმების პროცესი...',
+       'check_in_progress': 'მიმდინარეობს შემოწმება...',
        'search_header': "შედეგი: ",
        'not_found': "Result: <code>ვერ მოიძებნა</code>",
        'check_started': 'დაიწყო ჩატის შემოწმება'
