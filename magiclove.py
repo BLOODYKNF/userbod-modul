@@ -10,7 +10,7 @@ class ILYMod(loader.Module):
 
     strings = {"name": "LoveMagic"}
 
-    async def ilycmd(self, message: "telethon.tl.types.Message") -> None:
+    async def მიყვარხარcmd(self, message: "telethon.tl.types.Message") -> None:
         """დაწერე მიყვარხარ და დატკბი შედეგით❤️..."""
         if not message.out:
             message = await message.respond("მიყვარხარ")
