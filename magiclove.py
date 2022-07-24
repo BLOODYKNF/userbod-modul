@@ -1,3 +1,4 @@
+#This Script Is Edited By Bloodyofc (Bloody Knife) tg:@bloodyofc
 import random
 from .. import utils, loader
 from asyncio import sleep
@@ -5,7 +6,7 @@ from asyncio import sleep
 
 @loader.tds
 class ILYMod(loader.Module):
-    """Famous TikTok hearts animation implemented in FTG"""
+    """გულების ეფექტები Bloodyofc - სგან"""
 
     strings = {"name": "LoveMagic"}
 
