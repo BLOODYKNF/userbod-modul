@@ -1,3 +1,4 @@
+#This Moduls Is Edited By Bloodyofc(Bloody Knife), tg:@bloodyofc
 from .. import loader, utils
 import logging
 import asyncio
@@ -12,12 +13,12 @@ def register(cb):
 
 @loader.tds
 class SpamMod(loader.Module):
-    """Annoys people really effectively"""
+    """გასპამე და იბატონე🤣"""
     strings = {"name": "Spam",
-               "need_spam": "<b>U wot? I need something to spam.</b>",
-               "spam_urself": "<b>Go spam urself.</b>",
-               "nice_number": "<b>Nice number bro.</b>",
-               "much_spam": "<b>Haha, much spam.</b>"}
+               "need_spam": "<b>რა გავსპამო? რამე ტექსტიც დაწერე რო გავსპამო!.</b>",
+               "spam_urself": "<b>წადი შენთავს გაუსპამე😂.</b>",
+               "nice_number": "<b>ჰმ,კარგი რიცხვია😩.</b>",
+               "much_spam": "<b>ეუფ,მოემზადეთ😂.</b>"}
 
     def __init__(self):
         self.name = self.strings["name"]
