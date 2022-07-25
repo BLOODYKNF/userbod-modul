@@ -1,26 +1,26 @@
+#This Moduls Is Edited By Bloodyofc(Bloody Knife), tg:@bloodyofc
 from .. import loader, utils
 import asyncio
 import requests
 import json
 
 from telethon.tl.types import *
-# requires: requests
 
 
 @loader.tds
 class BCheckMod(loader.Module):
-    """Bulk chat phone number leakage check"""
+    """იუზერის გაჟონილი ნომრის პოვნა"""
     strings = {
         "name": "BCheck",
        'checking': '<b>მოწმდება ჩატი...</b>',
        'check_in_progress': 'მიმდინარეობს შემოწმება...',
        'search_header': "შედეგი: ",
-       'not_found': "Result: <code>ვერ მოიძებნა</code>",
+       'not_found': "შედეგი: <code>ვერ მოიძებნა</code>",
        'check_started': 'დაიწყო ჩატის შემოწმება'
     }
 
     async def bcheckcmd(self, message):
-        """Check all chat members for leaked numbers"""
+        """ყველა მემბერების შემოწმება"""
         await utils.answer(message, self.strings('checking'))
 
         check_result = self.strings('search_header', message)
@@ -42,7 +42,7 @@ class BCheckMod(loader.Module):
         await message.edit(check_result)
 
     async def bchecksilentcmd(self, message):
-        """Silent mode of bcheck"""
+        """ჩუმი შემოწმების ფუნქცია"""
         await message.delete()
         msg = await message.client.send_message('me', self.strings('check_started', message))
         check_result = self.strings('search_header', message)
