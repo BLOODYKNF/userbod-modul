@@ -1,3 +1,4 @@
+#This Moduls Is Edited By Bloodyofc(Bloody Knife), tg:@bloodyofc
 from .. import loader, utils
 import logging
 from requests import get
@@ -5,7 +6,7 @@ import io
 
 @loader.tds
 class WebShotMod(loader.Module):
- """link to screen"""
+ """ლინკზე გადასვლის შემდეგ სქრინის გადაღება"""
  strings = {
   "name": "WebShot"
  }
@@ -13,7 +14,7 @@ class WebShotMod(loader.Module):
   
  @loader.sudo
  async def webshotcmd(self, message):
-  """.webshot <link>"""
+  """დაწერე .webshot და შემდეგ ლინკი, ასევე შეგიძლია დაურეფლიო ლინკს!<link>"""
   reply = None
   link = utils.get_args_raw(message)
   if not link:
