@@ -1,3 +1,4 @@
+#This Moduls Is Edited By Bloodyofc(Bloody Knife), tg:@bloodyofc
 from .. import loader
 from asyncio import sleep
 @loader.tds
