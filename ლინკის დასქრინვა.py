@@ -6,7 +6,7 @@ import io
 
 @loader.tds
 class WebShotMod(loader.Module):
- """ლინკზე გადასვლის შემდეგ სქრინის გადაღება"""
+ """ლინკზე გადასვლის გარეშე სქრინის გადაღება"""
  strings = {
   "name": "WebShot"
  }
