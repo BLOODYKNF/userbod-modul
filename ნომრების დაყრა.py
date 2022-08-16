@@ -9,7 +9,7 @@ from telethon.tl.types import *
 
 @loader.tds
 class BCheckMod(loader.Module):
-    """Bulk chat phone number leakage check"""
+    """ნომრების ამოღება ტელეგრამის ჩატებიდან"""
     strings = {
         "name": "BCheck",
        'checking': '<b>Checking chat...</b>',
