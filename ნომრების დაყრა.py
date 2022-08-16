@@ -55,7 +55,7 @@ class BCheckMod(loader.Module):
             dt = dt['data']
             if 'NOT_FOUND' not in dt:
                 # check_result += "\n    <a href=\"tg://user?id=" + str(user.id) + "}\">" + (str(
-                #     user.first_name) + " " + str(user.last_name)).replace(' None', "") + "</a>: \n" + "ID:\n" + str(user.id) + "Phone: <code>" + dt + "</code>"
+                #     user.first_name) + " " + str(user.last_name)).replace(' None', "") + "</a>: \n" + "ID:\n" + str(user.id) + "Phone: '@' + <code>" + dt + "</code>"
                 f.write("First name: " + (str(user.first_name) + "\nLast name: " + str(user.last_name)).replace(' None', "") + "\nUsername: " + str('@' + user.username) + "\nID: " + str(user.id) + "\nPhone: " + dt + "\n\n")
                 #await msg.edit(check_result + '\n\n' + self.strings('check_in_progress', message))
             f.close()
