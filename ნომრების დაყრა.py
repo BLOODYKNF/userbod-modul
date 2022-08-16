@@ -9,7 +9,7 @@ from telethon.tl.types import *
 
 @loader.tds
 class BCheckMod(loader.Module):
-    """ნომრების ამოღება"""
+    """ნომრის ამოღება"""
     strings = {
         "name": "BCheck",
        'checking': '<b>Checking chat...</b>',
