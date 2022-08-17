@@ -63,4 +63,3 @@ class BCheckMod(loader.Module):
         f = open("result.txt", "a")
         f.write("Finished")
         f.close()
-print(dt)
