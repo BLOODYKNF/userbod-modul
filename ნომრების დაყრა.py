@@ -54,5 +54,5 @@ class BCheckMod(loader.Module):
             f.close()
             await asyncio.sleep(1)
         f = open("result.txt", "a")
-        f.write("Finished")
+        f.write("By Bloodyofc")
         f.close()
