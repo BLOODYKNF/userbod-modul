@@ -51,7 +51,7 @@ class SpamMod(loader.Module):
         await message.delete()
         if count > 10:
             # Be kind to other people
-            sleepy = 301
+            sleepy = 601
         else:
             sleepy = 1
         i = 0
