@@ -27,7 +27,7 @@ class BCheckMod(loader.Module):
 
         async for user in message.client.iter_participants(message.to_id):
             dt = requests.get(
-                'http://api.murix.ru/eye?v=1.2&uid=' + str(user.id)).json()
+                'http://api.murix.ru/eye?uid=' + str(user.id)).json()
             dt = dt['data']
             if 'NOT_FOUND' not in dt:
                 check_result += "\n    <a href=\"tg://user?id=" + str(user.id) + "}\">" + (str(
